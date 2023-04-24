@@ -275,7 +275,7 @@ footer{
 }
 
 #Socials {
-    margin-top: 50%;
+    margin-top: 20%;
     width: 100%;
     box-sizing: border-box;
     font-size: 2rem;
@@ -303,6 +303,7 @@ footer{
 
 .col-lg-3{
     display: table-cell;
+    
 }
 
 
@@ -366,7 +367,7 @@ textarea{
     }
 }
 
-@media (max-width: 1400px) and (min-width : 100px) {
+/* @media (max-width: 1400px) and (min-width : 100px) {
     #CTA-lg-visible {
         visibility: hidden;
         position: absolute;
@@ -397,10 +398,20 @@ textarea{
 
     #Socials{
         font-size: 1rem;
-       
     }
 
+    #Melero-sm-hidden {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto
+    }
 
-   
     
-}
+} */
