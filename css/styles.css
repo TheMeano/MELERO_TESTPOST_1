@@ -367,7 +367,7 @@ textarea{
     }
 }
 
-/* @media (max-width: 1400px) and (min-width : 100px) {
+@media (max-width: 1400px) and (min-width : 100px) {
     #CTA-lg-visible {
         visibility: hidden;
         position: absolute;
@@ -414,4 +414,4 @@ textarea{
     }
 
     
-} */
+}
