@@ -449,6 +449,9 @@ textarea{
     .rec_back{
         height: 60%;
     }
+    .p-footer{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 1400px) and (min-width : 1000px){
