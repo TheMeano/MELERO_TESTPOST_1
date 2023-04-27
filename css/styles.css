@@ -350,7 +350,7 @@ textarea{
 /* MEDIA QUERY  ****************************************************************************/
 
 @media (min-width:1400px) {
-    #CTA-sm-hidden {
+    #CTA-sm-hidden{
         visibility: hidden;
         position: absolute;
         top: 0;
@@ -378,7 +378,16 @@ textarea{
 }
 
 @media (max-width: 1400px) and (min-width : 800px) {
-    #CTA-lg-visible {
+  
+    #card-sm-hidden {
+        visibility: visible;
+    }
+
+    #CTA-sm-hidden{
+        visibility: visible;
+    }
+
+    #CTA-lg-visible{
         visibility: hidden;
         position: absolute;
         top: 0;
@@ -395,18 +404,7 @@ textarea{
         text-align: center;
     }
 
-    #CTA-sm-hidden {
-        visibility: visible;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin-top: auto;
-        margin-bottom: auto;
-        right: 0;
-        left: 0;
-        margin-left: auto;
-        margin-right: auto
-    }
+   
     .h1-bold {
         font-weight: 700;
         font-size: 4.5rem;
@@ -480,7 +478,11 @@ textarea{
         font-size: 1rem;
     }
 
-    #CTA-lg-visible {
+    #CTA-sm-hidden{
+        visibility: visible;
+    }
+
+    #CTA-lg-visible{
         visibility: hidden;
         position: absolute;
         top: 0;
@@ -492,6 +494,7 @@ textarea{
         margin-left: auto;
         margin-right: auto
     }
+
 
     .nav-link{
         text-align: center;
