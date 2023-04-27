@@ -60,6 +60,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     z-index: -1;  
+    width: 100%;
+}
+
+#component_1_hidden{
+    visibility: hidden;
+  }
+
+  #component_1_visible{
+    visibility: visible;
 }
 
 .navbar {
@@ -368,7 +377,7 @@ textarea{
     }
 }
 
-@media (max-width: 1400px) and (min-width : 550px) {
+@media (max-width: 1400px) and (min-width : 800px) {
     #CTA-lg-visible {
         visibility: hidden;
         position: absolute;
@@ -380,6 +389,10 @@ textarea{
         left: 0;
         margin-left: auto;
         margin-right: auto
+    }
+
+    #first-sec{
+        text-align: center;
     }
 
     #CTA-sm-hidden {
@@ -426,18 +439,7 @@ textarea{
         font-size: 1rem;
     }
 
-    #Melero-sm-hidden {
-        visibility: hidden;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin-top: auto;
-        margin-bottom: auto;
-        right: 0;
-        left: 0;
-        margin-left: auto;
-        margin-right: auto
-    }
+   
 
     .CTA-btn {
         border-radius: 100px;
@@ -455,10 +457,11 @@ textarea{
         text-transform: uppercase;
        background-color: #D7A9FD;
       }
+   
     
 }
 
-@media (max-width: 550px) and (min-width : 100px) {
+@media (max-width: 800px) and (min-width : 100px) {
     .CTA-btn {
         width: 150px;
         font-size: 0.83rem;
@@ -466,7 +469,7 @@ textarea{
 
     .h1-bold {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 5.5rem;
         line-height: 1.1;
         text-transform: capitalize;
         margin-bottom: 3%;
@@ -474,7 +477,7 @@ textarea{
     }
 
     .p-footer{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     #CTA-lg-visible {
@@ -492,5 +495,29 @@ textarea{
 
     .nav-link{
         text-align: center;
+    }
+
+    #component_1_hidden{
+        visibility: visible;
+    }
+
+    #component_1_visible{
+        visibility: hidden;
+    }
+
+    #first-sec{
+        text-align: center;
+    }
+
+    .rec-background{
+        height: 75%;
+    }
+
+    #wave_background{
+        height: 50%;
+    }
+
+    .Melero_footer{
+        font-size: 1.3rem;
     }
 }
