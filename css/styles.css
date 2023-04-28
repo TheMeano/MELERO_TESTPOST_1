@@ -172,12 +172,12 @@ body{
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -0px;
     transition: 0.5s;
   }
   
   .CTA-btn:hover span {
-    padding-right: 25px;
+    padding-right: 15px;
   }
   
   .CTA-btn:hover span:after {
@@ -381,7 +381,7 @@ textarea{
     }
 }
 
-@media (max-width: 1400px) and (min-width : 800px) {
+@media (max-width: 1400px) and (min-width : 750px) {
   
     #card-sm-hidden {
         visibility: visible;
@@ -463,9 +463,9 @@ textarea{
     
 }
 
-@media (max-width: 800px) and (min-width : 100px) {
+@media (max-width: 750px) and (min-width : 100px) {
     .CTA-btn {
-        width: 150px;
+        width: 160px;
         font-size: 0.83rem;
       }
 
@@ -517,7 +517,7 @@ textarea{
     }
 
     .rec-background{
-        height: 75%;
+        height: 70%;
     }
 
     #wave_background{
