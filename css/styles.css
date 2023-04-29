@@ -517,7 +517,7 @@ textarea{
     }
 
     .rec-background{
-        height: 70%;
+        height: 65%;
     }
 
     #wave_background{
@@ -526,5 +526,14 @@ textarea{
 
     .Melero_footer{
         font-size: 1.3rem;
+    }
+
+    #row_footer {
+        position: absolute;
+        margin-top: 40%;
+    }
+
+    .col-sm-footer{
+        margin-right: 100px;
     }
 }
