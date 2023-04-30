@@ -487,6 +487,7 @@ textarea{
         width: 120%;
         opacity: 1;
     }
+   
 
 }
 
@@ -566,7 +567,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 40%;
+        margin-top: 43%;
     }
 
     .col-sm-footer{
