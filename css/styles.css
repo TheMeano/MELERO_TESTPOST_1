@@ -32,6 +32,11 @@ body{
     color: black;
 }
 
+.CTA-h1{
+    font-size: 3.5rem;
+    font-weight:600
+}
+
 
 
 /* first section  ****************************************************************************************************/
@@ -145,7 +150,7 @@ body{
     text-align: center;
     font-size: 1.25rem;
     padding: 30px;
-    width: 230px;
+    width: 25%;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -242,6 +247,10 @@ h3{
 
 #row-cta1 {
     margin-top: 12%;
+}
+.graph-fluid{
+    width: 80%;
+    opacity: 1;
 }
 
 
@@ -383,6 +392,10 @@ textarea{
 
 @media (max-width: 1400px) and (min-width : 750px) {
   
+    .CTA-h1{
+        font-size: 2.5rem;
+    }
+
     #card-sm-hidden {
         visibility: visible;
     }
@@ -435,7 +448,7 @@ textarea{
         margin-right: auto
     }
 
-
+    
 
     #Socials{
         font-size: 1rem;
@@ -463,15 +476,24 @@ textarea{
     
 }
 
+@media (max-width: 1400px) and (min-width : 1000px) {
+    
+    .graph-fluid{
+        width: 120%;
+        opacity: 1;
+    }
+
+}
+
 @media (max-width: 750px) and (min-width : 100px) {
     .CTA-btn {
-        width: 160px;
-        font-size: 0.83rem;
+        width: 150px;
+        font-size: 0.85rem;
       }
 
     .h1-bold {
         font-weight: 700;
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 1.1;
         text-transform: capitalize;
         margin-bottom: 3%;
