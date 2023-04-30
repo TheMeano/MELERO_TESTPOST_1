@@ -299,6 +299,7 @@ footer{
     box-sizing: border-box;
     font-size: 2rem;
     color: #ffffff;
+    padding-bottom: 0%;
 }
 
 .p-footer{
@@ -312,7 +313,8 @@ footer{
     right: 0;
     margin: auto;
     width: 100%;
-
+    margin-bottom: 0;
+  
 }
 
 #row_footer {
@@ -454,6 +456,9 @@ textarea{
         font-size: 1rem;
     }
 
+    .p-footer{
+        font-size: 1.5rem;
+    }
    
 
     .CTA-btn {
@@ -543,7 +548,7 @@ textarea{
     }
 
     #wave_background{
-        height: 50%;
+        height: 55%;
     }
 
     .Melero_footer{
@@ -556,6 +561,8 @@ textarea{
     }
 
     .col-sm-footer{
-        margin-right: 100px;
+        width: 25%;
     }
+
+    
 }
