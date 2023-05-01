@@ -231,7 +231,7 @@ h3{
 }
 
 #Call-to-action_1 p {
-    color: #7B7B7B;
+    color: #000;
 }
 
 #Rectangle_background1 {
@@ -262,7 +262,7 @@ h3{
 }
 
 #Call-to-action_2 p {
-    color: #7B7B7B;
+    color: #000;
 }
 
 
@@ -491,9 +491,9 @@ textarea{
 
 }
 
-@media (max-width: 750px) and (min-width : 100px) {
+@media (max-width: 750px) and (min-width : 400px) {
     .CTA-btn {
-        width: 150px;
+        width: 130px;
         font-size: 0.85rem;
       }
 
@@ -503,7 +503,7 @@ textarea{
 
     .h1-bold {
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 1.1;
         text-transform: capitalize;
         margin-bottom: 3%;
@@ -575,4 +575,88 @@ textarea{
     }
 
     
+}
+
+@media (max-width: 400px) and (min-width : 100px) {
+    .CTA-btn {
+        width: 120px;
+        font-size: 0.75rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+    .h1-bold {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1.1;
+        text-transform: capitalize;
+        margin-bottom: 3%;
+    
+    }
+
+    .CTA-h1{
+        font-size: 2.3rem;
+    }
+
+    .p-footer{
+        font-size: 0.8rem;
+    }
+
+    #CTA-sm-hidden{
+        visibility: visible;
+    }
+
+    #CTA-lg-visible{
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+
+    .nav-link{
+        text-align: center;
+    }
+
+    #component_1_hidden{
+        visibility: visible;
+    }
+
+    #component_1_visible{
+        visibility: hidden;
+    }
+
+    #first-sec{
+        text-align: center;
+    }
+
+    .rec-background{
+        height: 45%;
+    }
+
+    #wave_background{
+        height: 55%;
+    }
+
+    .Melero_footer{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #row_footer {
+        position: absolute;
+        margin-top: 60%;
+    }
+
+    .col-sm-footer{
+        width: 33%;
+    }
 }
