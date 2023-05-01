@@ -426,7 +426,7 @@ textarea{
    
     .h1-bold {
         font-weight: 700;
-        font-size: 4.5rem;
+        font-size: 4rem;
         line-height: 1.1;
         text-transform: capitalize;
         margin-bottom: 3%;
@@ -450,6 +450,7 @@ textarea{
         margin-right: auto
     }
 
+    
     
 
     #Socials{
