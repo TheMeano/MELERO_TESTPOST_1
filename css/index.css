@@ -204,7 +204,8 @@ body{
     text-align: center;
     padding: 5%;
     border-radius: 38px;
-    margin: auto 3% 10%;
+    margin: auto;
+    margin-bottom: 10%; 
     width: 100%;
 }
 
@@ -328,6 +329,9 @@ footer{
     
 }
 
+.footer-end-wrapper{
+    display: table-footer-group;
+}
 
 
 
@@ -458,6 +462,11 @@ textarea{
         font-size: 1rem;
     }
 
+    #row_footer {
+        position: absolute;
+        margin-top: 30%;
+    }
+
     .p-footer{
         font-size: 1.5rem;
     }
@@ -480,7 +489,9 @@ textarea{
        background-color: #D7A9FD;
       }
    
-    
+      #wave_background{
+        height: 80%;
+    }
 }
 
 @media (max-width: 1400px) and (min-width : 1000px) {
@@ -490,10 +501,12 @@ textarea{
         opacity: 1;
     }
    
-
+    #wave_background{
+        height: 80%;
+    }
 }
 
-@media (max-width: 750px) and (min-width : 400px) {
+@media (max-width: 750px) and (min-width : 470px) {
     .CTA-btn {
         width: 130px;
         font-size: 0.85rem;
@@ -559,7 +572,7 @@ textarea{
     }
 
     #wave_background{
-        height: 55%;
+        height: 67%;
     }
 
     .Melero_footer{
@@ -579,7 +592,7 @@ textarea{
     
 }
 
-@media (max-width: 400px) and (min-width : 100px) {
+@media (max-width: 470px) and (min-width : 100px) {
     .CTA-btn {
         width: 120px;
         font-size: 0.75rem;
@@ -655,10 +668,12 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 45%;
+        margin-top: 50%;
     }
 
     .col-sm-footer{
         width: 33%;
     }
+
+    
 }
