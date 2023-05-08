@@ -482,15 +482,13 @@ textarea{
     }
 
     
-    
 
-    #Socials{
-        font-size: 1rem;
-    }
+    
 
     #row_footer {
         position: absolute;
         margin-top: 30%;
+        font-size: 1rem;
     }
 
     .p-footer{
@@ -517,6 +515,10 @@ textarea{
    
       #wave_background{
         height: 80%;
+    }
+
+    .Melero_footer{
+        visibility: visible;
     }
 }
 
