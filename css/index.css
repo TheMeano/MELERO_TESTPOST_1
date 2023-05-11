@@ -338,6 +338,7 @@ footer{
   
 }
 
+
 #row_footer {
     position: absolute;
     margin-top: 30%;
@@ -489,7 +490,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 30%;
+        margin-top: 50%;
         font-size: 1rem;
     }
 
@@ -533,6 +534,12 @@ textarea{
    
     #wave_background{
         height: 80%;
+    }
+
+    #row_footer {
+        position: absolute;
+        margin-top: 40%;
+        font-size: 1rem;
     }
 }
 
@@ -612,7 +619,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 40%;
+        margin-top: 65%;
     }
 
     .col-sm-footer{
@@ -687,9 +694,7 @@ textarea{
         height: 45%;
     }
 
-    #wave_background{
-        height: 55%;
-    }
+
 
     .Melero_footer{
         visibility: hidden;
@@ -698,7 +703,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 50%;
+      
     }
 
     .col-sm-footer{
