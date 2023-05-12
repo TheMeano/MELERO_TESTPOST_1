@@ -543,7 +543,7 @@ textarea{
     }
 }
 
-@media (max-width: 750px) and (min-width : 470px) {
+@media (max-width: 750px) and (min-width : 440px) {
     .CTA-btn {
         width: 130px;
         font-size: 0.85rem;
@@ -609,7 +609,7 @@ textarea{
     }
 
     #wave_background{
-        height: 67%;
+        height: 50%;
     }
 
     .Melero_footer{
@@ -619,17 +619,19 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 65%;
+        margin-top: 40%;
     }
 
     .col-sm-footer{
         width: 33%;
     }
 
+
+
     
 }
 
-@media (max-width: 470px) and (min-width : 100px) {
+@media (max-width: 440px) and (min-width : 100px) {
     .CTA-btn {
         width: 120px;
         font-size: 0.75rem;
@@ -691,10 +693,12 @@ textarea{
     }
 
     .rec-background{
-        height: 45%;
+        height: 50%;
     }
 
-
+    #wave_background{
+        height: 35%;
+    }
 
     .Melero_footer{
         visibility: hidden;
@@ -703,7 +707,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-      
+        margin-top: 40%;
     }
 
     .col-sm-footer{
