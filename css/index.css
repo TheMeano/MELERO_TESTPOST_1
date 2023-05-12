@@ -543,7 +543,7 @@ textarea{
     }
 }
 
-@media (max-width: 750px) and (min-width : 440px) {
+@media (max-width: 750px) and (min-width : 400px) {
     .CTA-btn {
         width: 130px;
         font-size: 0.85rem;
@@ -609,7 +609,7 @@ textarea{
     }
 
     #wave_background{
-        height: 50%;
+        height: 55%;
     }
 
     .Melero_footer{
@@ -619,7 +619,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 40%;
+        margin-top: 43%;
     }
 
     .col-sm-footer{
@@ -631,7 +631,7 @@ textarea{
     
 }
 
-@media (max-width: 440px) and (min-width : 100px) {
+@media (max-width: 400px) and (min-width : 100px) {
     .CTA-btn {
         width: 120px;
         font-size: 0.75rem;
@@ -697,7 +697,7 @@ textarea{
     }
 
     #wave_background{
-        height: 35%;
+        height: 40%;
     }
 
     .Melero_footer{
@@ -707,7 +707,7 @@ textarea{
 
     #row_footer {
         position: absolute;
-        margin-top: 40%;
+        margin-top: 45%;
     }
 
     .col-sm-footer{
