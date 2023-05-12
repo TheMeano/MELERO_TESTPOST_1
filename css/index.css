@@ -335,13 +335,21 @@ footer{
     width: 100%;
     margin-bottom: 0;
     user-select: none;
-  
+    z-index: -1;
 }
 
 
 #row_footer {
     position: absolute;
+    top: 0;
+    bottom: 0;
     margin-top: 30%;
+    margin-bottom: auto;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .col-lg-3{
@@ -407,7 +415,7 @@ textarea{
         right: 0;
         left: 0;
         margin-left: auto;
-        margin-right: auto
+        margin-right: auto;
     }
 
     #card-sm-hidden {
@@ -482,15 +490,10 @@ textarea{
         margin-right: auto
     }
 
-
-
+    
     
 
-    
-
-    #row_footer {
-        position: absolute;
-        margin-top: 50%;
+    #Socials{
         font-size: 1rem;
     }
 
@@ -516,13 +519,7 @@ textarea{
        background-color: #D7A9FD;
       }
    
-      #wave_background{
-        height: 80%;
-    }
-
-    .Melero_footer{
-        visibility: visible;
-    }
+    
 }
 
 @media (max-width: 1400px) and (min-width : 1000px) {
@@ -532,15 +529,7 @@ textarea{
         opacity: 1;
     }
    
-    #wave_background{
-        height: 80%;
-    }
 
-    #row_footer {
-        position: absolute;
-        margin-top: 40%;
-        font-size: 1rem;
-    }
 }
 
 @media (max-width: 750px) and (min-width : 400px) {
@@ -594,6 +583,7 @@ textarea{
 
     #component_1_hidden{
         visibility: visible;
+        height: auto;
     }
 
     #component_1_visible{
@@ -626,10 +616,10 @@ textarea{
         width: 33%;
     }
 
-
-
     
 }
+
+
 
 @media (max-width: 400px) and (min-width : 100px) {
     .CTA-btn {
@@ -693,11 +683,11 @@ textarea{
     }
 
     .rec-background{
-        height: 50%;
+        height: 45%;
     }
 
     #wave_background{
-        height: 40%;
+        height: 55%;
     }
 
     .Melero_footer{
@@ -713,6 +703,4 @@ textarea{
     .col-sm-footer{
         width: 33%;
     }
-
-    
 }
