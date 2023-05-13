@@ -18,7 +18,7 @@ img{
 
 .content-wrapper {
     position: relative;
-    height: 630px;
+    height: 300px;
 }
 
 .modal {
@@ -239,7 +239,7 @@ img{
 
 
 .card:hover {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
 }
 
 .benefit-design {
@@ -541,7 +541,7 @@ textarea{
 
 }
 
-@media (max-width: 750px) and (min-width : 400px) {
+@media (max-width: 750px) and (min-width : 450px) {
     .CTA-btn {
         width: 130px;
         font-size: 0.85rem;
@@ -601,7 +601,13 @@ textarea{
 
     #first-sec{
         text-align: center;
+        margin-bottom: 0;
     }
+
+    #benefits {
+        margin-top: 20%;
+        color: #7B7B7B;
+      }
 
     .rec-background{
         height: 65%;
@@ -630,7 +636,7 @@ textarea{
 
 
 
-@media (max-width: 400px) and (min-width : 100px) {
+@media (max-width: 450px) and (min-width : 100px) {
     .CTA-btn {
         width: 120px;
         font-size: 0.75rem;
@@ -696,7 +702,7 @@ textarea{
     }
 
     #wave_background{
-        height: 55%;
+        height: 45%;
     }
 
     .Melero_footer{
