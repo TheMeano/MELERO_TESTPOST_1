@@ -4,7 +4,7 @@ body{
     padding: 0 10%;
     font-family: 'Outfit', sans-serif;
     z-index: -2;
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
 
 }
 
@@ -99,6 +99,14 @@ img{
     margin-right: 30px;
 }
 
+#rec-hireus{
+    background-color: #373080;
+    border-radius: 20px;
+    /* width: max-content;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
 .navbar-brand {
     color: #ffffff;
 }
@@ -119,19 +127,20 @@ img{
 }
 */
 #Image-phone {
-    z-index: 1;
-    position: absolute;
+     z-index: 1;
+   position: absolute;
     top: 0;
     bottom: 0;
-    margin-top: 0;
+    margin-top: 5%;
     margin-bottom: auto;
     right: 0;
     left: 0;
     margin-left: auto;
     margin-right: auto;
     user-select: none;
-    width: 110%;
+    width: 100%; 
 } 
+
 
 /* #web-example-vid{
     width: 700px;
@@ -213,7 +222,7 @@ img{
   /* benefits section  ***************************************************************************************************/
 
   #benefits {
-    margin-top: 20%;
+    margin-top: 10%;
     color: #7B7B7B;
   }
 
@@ -230,7 +239,7 @@ img{
 
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-30px);
 }
 
 .benefit-design {
