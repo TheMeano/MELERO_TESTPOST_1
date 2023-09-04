@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/impressum.css">
     <title>Impressum</title>
 </head>
@@ -27,51 +28,53 @@
     <img src="images/Component 1 mobile.png" alt="background_mobile" id="component_1_hidden" class="img-fluid fluid-absolute">
 <!-- NAVBAR  -->
 <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><h1>Meana</h1></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <!-- <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h1>Meana</h1></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li> -->
+      </ul>
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a href="index.html#Pricing" class="nav-link">Preise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+              <a href="index.html"  class="nav-link">Kontakt</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li> -->
-        </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="index.html#Pricing" class="nav-link">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a href="index.html#first-sec"class="nav-link">Hire us</a>
-            </li>
-            <li class="nav-item">
-                <a href="index.html#first-sec"  class="nav-link">Contact</a>
-            </li>
-            <li >
-                <a href="index.html#Socials" class="nav-link">Socials</a>
-            </li>         
-        </ul>
-      </div>
+          <li  class="nav-item">
+              <a href="index.html#Socials" class="nav-link">Socials</a>
+          </li>    
+          <li>
+            <div id="rec-hireus">
+            <a href="index.html"  class="nav-link"><i class="fa-solid fa-circle" style="color: #8f8bcd;"></i> Einstellen</a>
+            </div>
+        </li>     
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <h1 class="h1-bold">Impressum</h1>
   <p>Angaben gemäß § 5 TMG :</p>
@@ -80,7 +83,7 @@
 
     <div class="col-lg-6 card">
      <p>
-      Melero e.k. <br>
+      Meana Webdesign <br>
       Inhaber: Sebastian Meana <br>
       Lüdenstorfer Feld 18<br>
       21614 Buxehude<br>
@@ -101,7 +104,7 @@
       <br>
       </p> 
 
-d
+
 
     </div>
 
@@ -109,7 +112,7 @@ d
 
   <div class="col-lg-12 card" >
     <strong>Hinweis auf EU-Streitschlichtung</strong><br>
-  Es wird von der Europäischen Kommission sine Plattform zur Online-Streitbeilegung (OS) bereitgestellt: http://ec.europa.eu/consumers/odr <br>
+  Es wird von der Europäischen Kommission sine Plattform zur Online-Streitbeilegung (OS) bereitgestellt: <a href="http://ec.europa.eu/consumers/odr">http://ec.europa.eu/consumers/odr</a> <br>
   Die Email finden sie oben im Impressum.
   <br>
   <br>
@@ -153,9 +156,9 @@ d
 
           <div class="col-sm-footer col-lg-3" >
             <p class="p-footer">Legal <i class="fa-solid fa-file-contract"></i></p>
-            <p  class="p-footer"><i class="fa-regular fa-copyright"></i>Melero</p>
+            <p  class="p-footer"><i class="fa-regular fa-copyright"></i>Meana</p>
             <p class="p-footer"><a class="a" href="impressum.html" style="color: white;" target="_blank">Impressum</a></p>
-            <p class="p-footer"><a class="a" href="Allgemeine Geschäftsbedingungen.pdf" style="color: white;" target="_blank">Terms of use</a></p>
+            <p class="p-footer"><a class="a" href="Allgemeine Geschäftsbedingungen.pdf" style="color: white;" target="_blank">AGB's</a></p>
           </div>
 
           <div class=" col-lg-12 footer-end-wrapper">
